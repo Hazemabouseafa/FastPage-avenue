@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avenueBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0088dd" />
+      <stop offset="100%" stop-color="#0e4b85" />
+    </linearGradient>
+    <linearGradient id="avenueOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b39" />
+      <stop offset="100%" stop-color="#e04e1a" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0e4b85" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Outer Stylized Square Box -->
+  <rect x="75" y="45" width="350" height="330" rx="6" fill="none" stroke="url(#avenueBlueGrad)" stroke-width="14" stroke-linejoin="round" />
+
+  <!-- Stylized Letter 'A' -->
+  <!-- Left Leg with elegant flourish curl -->
+  <path d="M 175 330 C 130 330 110 305 110 280 C 110 245 140 230 168 238 C 190 244 195 262 185 275 C 175 288 158 285 152 276 C 148 270 152 262 160 262 C 165 262 168 266 166 270 C 160 274 150 266 160 252 C 178 226 215 155 250 82 C 255 72 265 72 270 82 L 380 330" 
+        fill="none" 
+        stroke="url(#avenueBlueGrad)" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Crossbar cutting across -->
+  <path d="M 180 232 L 350 232" 
+        fill="none" 
+        stroke="url(#avenueBlueGrad)" 
+        stroke-width="14" 
+        stroke-linecap="round" />
+
+  <!-- Subtle dynamic accent dot/sparkle -->
+  <circle cx="260" cy="74" r="5" fill="#e04e1a" />
+
+  <!-- Typography: AVENUE -->
+  <text x="250" y="425" 
+        text-anchor="middle" 
+        font-family="'Montserrat', 'Tajawal', 'Cairo', sans-serif" 
+        font-size="52" 
+        font-weight="900" 
+        letter-spacing="9" 
+        fill="#0e4b85">AVENUE</text>
+
+  <!-- Typography: Business Services -->
+  <g transform="translate(250, 465)">
+    <!-- Left Dash -->
+    <line x1="-190" y1="-7" x2="-140" y2="-7" stroke="#e04e1a" stroke-width="3" stroke-linecap="round" />
+    <text x="0" y="0" 
+          text-anchor="middle" 
+          font-family="'Tajawal', 'Cairo', 'Montserrat', sans-serif" 
+          font-size="24" 
+          font-weight="700" 
+          letter-spacing="5" 
+          fill="#e04e1a">Business Services</text>
+    <!-- Right Dash -->
+    <line x1="140" y1="-7" x2="190" y2="-7" stroke="#e04e1a" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>
